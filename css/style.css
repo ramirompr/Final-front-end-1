@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+}
+
+
+html{font-size: 62.5%;}
+
+
+/*ESTILOS REPETIDOS DE LA PAGINA*/
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.6rem;
+}
+
+.button__nav:hover,
+.button__graf:hover,
+.button__personas:hover{
+    background-color: #ed3809;
+}
+
+.GetStarted__button{
+    font-weight: 500;
+    color: white;
+    background-color: #F3603B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    width: 134px;
+    height: 44px;
+}
+
+/*ESTILOS HEADER*/
+.container__header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.svg__hamburguesa{
+    display: none;
+}
+
+.button__nav{
+    margin: 77.5px 28px 0 0;
+    width: 100%;
+}
+
+.subcontainer__header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.header__item{
+    font-weight: 500;
+    margin: 77.5px 0 0 0;
+    color: #242E52;
+}
+
+/*ESTILOS ARTICLE GRAFICOS*/
+.container__graf{
+    display: flex;
+}
+
+.subcontainer__graf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin: 185px 115px 0 165px;
+}
+
+.title__graf{
+    font-weight: 700;
+    font-size: 5.8rem;
+    color:#232C50;
+}
+
+.text__graf{
+    font-weight: 500;
+    line-height: 2.6rem;
+    margin: 28px 0 28px 0;
+    width: 80%;
+}
+
+.img__graf{
+    margin: 125px 140px 0 0;
+}
+
+.button__graf{
+    margin: 0;
+}
+
+/*ARTICLE COMMENTS*/
+
+.container__comments{
+    display: flex;
+    margin: 142px 180px 0 165px;
+}
+
+.subcontainer__comments{
+    margin-right: 125px;
+}
+
+.title__comments{
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.1rem;
+    margin-bottom: 3.6rem;
+}
+
+.text__comments{
+    line-height: 2.4rem;
+    font-weight: 500;
+    width: 80%;
+}
+
+.subcontainer__comments2{
+    display: flex;
+}
+
+.numeros__comments{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    background-color: #F3603B;
+    width: 69px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-right: 23px;
+}
+.numeros__comments::before{
+    content: "0";
+}
+
+.title2__comments{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+}
+
+.text2__comments{
+    font-weight: 500;
+    color:#B3B2B7;
+    margin: 18px 0 44px 0;
+    line-height: 2.6rem;
+    align-items: center;
+    padding-left: 90px;
+    width: 100%;
+}
+
+/*ARTICLE PERSONAS*/
+.personas__icon__queridif{
+    display: none;
+}
+.title__personas{
+    font-weight: 700;
+    font-size: 3.9rem;
+    margin: 132px 0 75px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.subcontainer__personas{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card__personas{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.img__personas{
+    width: 70px;
+}
+
+.nombres__personas{
+    font-weight: 700;
+    color:#3F4868;
+    margin: 21px;
+}
+
+.text__personas{
+    font-weight: 500;
+    color: #B9B9C1;
+    max-width: 410px;
+    text-align: center;
+}
+
+.button__personas__container{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 180px 0;
+}
+
+
+/*ESTILOS FOOTER*/
+/*FOOTER1*/
+.container__footer1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F3613C;
+    min-height: 224px;
+}
+
+.title__footer1{
+    font-weight: 700;
+    font-size: 4rem;
+    max-width: 460px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.button__footer1{
+    font-weight: 500;
+    color: #F3603B;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    width: 134px;
+    height: 44px;
+}
+.button__footer1:hover{
+    background-color: #c9d1ff;
+}
+.container__button__personas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*FOOTER2*/
+.container__footer2{
+    background-color:#1E1E26;
+    min-height: 247px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subcontainer__footer2__redes{
+    display: flex;
+    margin-top: 66px;
+    gap: 14px;
+}
+
+.subcontainer__footer2__paginas{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    columns: 2;
+    gap: 12px;
+    max-height: 140px;
+    max-width: 390px;   
+}
+
+.subcontainer__footer2__items{
+    line-height: 2.4rem;
+    margin-right: 200px;
+    color: white;   
+}
+
+.button__footer2{
+    background-color:#F3603B;
+    color: white;
+    border-radius: 50px;
+    width: 63px;
+    height: 42px;
+    padding: 10px;
+}
+
+.input__footer2{
+    border-radius: 50px;
+    height: 45px;
+    min-width: 201px;
+    padding: 8px;
+}
+
+.text__footer2{
+    font-size: 1.2rem;
+    color:#8C8C94;
+    font-weight: 500;
+    margin: 70px 0 0 50px;
+}
+
+.inputGo__footer2{
+    background-color: #F3603B;
+    color: white;
+}
+
+.text__footer2__queridif{
+    display: none;
+}
+
+/*MEDIA QUERIE*/
+
+@media screen and (max-width:375px){
+    /*HEADER*/
+    .container__header{
+        justify-content: space-around;
+    }
+    .svg__hamburguesa{
+        display: flex;
+        margin-top: 75px;
+        height: fit-content;
+    }
+    .subcontainer__header{
+        display: none;
+        width: 0;
+    }
+    .button__nav    {
+        display: none;
+    }
+    .nav__queridif{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*ARTICLE GRAFICOS*/
+
+    .container__graf{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .img__graf{
+        width: 90%;
+        margin: 40px 0 0 0;
+    }
+
+    .subcontainer__graf{
+        width: 100vw;
+        margin: 10px 5px 0 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .title__graf{
+        font-size: 3.8rem;
+    }
+    .text__graf{
+        text-align: justify;
+        color: #8C8C94;
+        font-size: 1.4rem;
+    }
+   
+    
+    /*ARTICLE COMMENTS*/
+
+    .container__comments{
+        flex-direction: column;
+        margin: 60px 0 0 0;
+        align-items: center;
+    }
+    .subcontainer__comments{
+        margin: 0;
+        width: 95%;
+    }
+    .title__comments{
+        width: 100vw;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .text__comments{
+        width: 100vw;
+        padding: 0 35px 0 35px;
+        text-align: center;
+        color: #8C8C94;
+        font-size: 1.4rem;
+        margin-bottom: 60px;
+    }
+    .text2__comments{
+        padding: 0 15px 0 15px;
+        font-size: 1.4rem;
+    }
+    .subcontainer2__comments__queridif{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*ARTICLE PERSONAS*/
+
+    .title__personas{
+        font-size: 3rem;
+        margin: 15px 0 65px 0;
+    }
+    .card__personas__queridif{
+        display: none;
+    }
+    .text__personas{
+        font-size: 1.4rem;
+        width: 80%;
+    }
+    .personas__icon__queridif{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;   
+    }
+    .button__personas{
+        margin: 20px 0 30px 0;
+    }
+    .button__personas__container{
+        margin: 0    0 10px 0;
+    }
+
+    /*SECTION FOOTER*/
+    /*FOOTER1*/
+
+    .container__footer1{
+        flex-direction: column;
+    }
+    .title__footer1{
+        text-align: center;
+        font-size: 3.5rem;
+        padding: 0 35px 0 35px;
+        margin-top: 75px;
+    }
+    .button__footer1{
+        margin: 20px 0 75px 0;
+    }
+
+    /*FOOTER2*/
+
+    .logo__footer2__queridif{
+        order: -1;
+        margin-top: 40px;
+    }
+    .text__footer2{
+        display: none;
+    }
+    .container__footer2{
+        flex-direction: column-reverse;
+    }
+    .form__footer2__queridif{
+        margin: 40px 0 40px 0;
+    }
+    .subcontainer__footer2__paginas{
+        width: 100vw;
+        margin: 0;
+        margin-left: 120px;
+    }
+    .subcontainer__footer2__items{
+        margin: 0;
+        font-size: 1.4rem;
+    }
+    .subcontainer__footer2__redes{
+        margin-top: 40px;
+        width: 80vw;
+        justify-content: center;
+        gap: 30px;
+    }
+    .text__footer2__queridif{
+        display: flex;
+        justify-content: center;
+    }
+    .redes__img__items{
+        height: min-content;
+        width: 8vw;
+    }
+    .text__footer2__queridif{
+        order: -1;
+        color: #8C8C94;
+        font-size: 1.4rem;
+        margin: 40px 0 30px 0;
+    }
+    .redes__footer2__queridif{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
